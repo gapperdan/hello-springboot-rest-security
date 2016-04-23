@@ -23,8 +23,8 @@ or combined:
 
 The user name and password are defined in the _application.properties_
 ```
-security.user.name=user
-security.user.password=password
+security.user.name=foo
+security.user.password=bar
 ```
 
 To test using a browser:
@@ -36,7 +36,7 @@ Then login with the credentials
 Or if using curl:
 
 ```
-curl -u user:password http://localhost:8080/hello
+curl -u foo:bar http://localhost:8080/hello
 ```
 
 Try it without the credentials, you should get 401 error
